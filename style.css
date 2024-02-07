@@ -59,7 +59,6 @@ a {
 
 .container {
   position: relative;
-  max-width: 81rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 3rem;
@@ -100,7 +99,6 @@ header .container {
   }
 
 .btn {
-  display: inline-block;
   padding: 0.9rem 1.9rem;
   color: #fff !important;
   background-color: var(--mainColor);
@@ -178,13 +176,15 @@ header .container {
   color: var(--darkOne);
   text-transform: capitalize;
   line-height: 1.4;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .text {
   color: var(--lightOne);
   font-size: 1.1rem;
   margin: 1.9rem 0 2.5rem;
-  max-width: 600px;
+  max-width: 3000px;
   line-height: 2.3;
 }
 
@@ -193,11 +193,11 @@ header .container {
 }
 
 .person {
-    width: 123%;
+    width: 100%;
   }
 
 .toggle-btn {
-  display: inline-block;
+  display: inline-block;    
   border: none;
   background: var(--darkTwo);
   color: var(--backgroundColor);
@@ -216,22 +216,6 @@ header .container {
 
 .toggle-btn:hover {
   background: var(--mainColor);
-}
-
-.big-wrapper.light .toggle-btn i:last-child {
-  display: none;
-}
-
-.big-wrapper.light .toggle-btn i:first-child {
-  display: block;
-}
-
-.big-wrapper.dark .toggle-btn i:last-child {
-  display: block;
-}
-
-.big-wrapper.dark .toggle-btn i:first-child {
-  display: none;
 }
 
 .copy {
@@ -309,7 +293,7 @@ header .container {
     opacity: 1;
   }
 
-  .showcase-area {
+  /* .showcase-area {
     padding: 2.5rem 0;
     max-width: 700px;
     margin: 0 auto;
@@ -319,15 +303,17 @@ header .container {
     grid-template-columns: 1fr;
     justify-content: center;
     grid-gap: 2rem;
-  }
+  } */
 
   .big-title {
     font-size: 1.1rem;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .text {
     font-size: 0.95rem;
-    margin: 1.4rem 0 1.5rem;
+    /* margin: 1.4rem 0 1.5rem; */
   }
 
   .person {
@@ -337,13 +323,15 @@ header .container {
 
 }
 
-@media screen and (max-width: 470px) {
+@media screen {
   .container {
     padding: 0 1.5rem;
   }
 
   .big-title {
     font-size: 0.9rem;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .text {
@@ -357,6 +345,7 @@ header .container {
 
 .circle-image{
     display: inline-block;
+    vertical-align: middle;
     overflow: hidden;
     width: 75%;
     padding-bottom: 75%;
@@ -375,9 +364,22 @@ header .container {
     color: var(--lightOne);
     font-size: 1.1rem;
     margin: 1.9rem 0 2.5rem;
-    max-width: 600px;
     line-height: 2.3;
     align-content: center;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
 }
+
+.h2 {
+    color: var(--lightOne);
+    margin: 1.9rem 0 2.5rem;
+    line-height: 2.3;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
 
 /* Add more styling as needed */
