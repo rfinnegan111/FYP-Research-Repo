@@ -293,18 +293,6 @@ header .container {
     opacity: 1;
   }
 
-  /* .showcase-area {
-    padding: 2.5rem 0;
-    max-width: 700px;
-    margin: 0 auto;
-  }
-
-  .showcase-area .container {
-    grid-template-columns: 1fr;
-    justify-content: center;
-    grid-gap: 2rem;
-  } */
-
   .big-title {
     font-size: 1.1rem;
     display: inline-block;
@@ -313,7 +301,6 @@ header .container {
 
   .text {
     font-size: 0.95rem;
-    /* margin: 1.4rem 0 1.5rem; */
   }
 
   .person {
@@ -380,6 +367,3 @@ header .container {
     text-align: center;
     bottom: 0;
 }
-
-
-/* Add more styling as needed */
