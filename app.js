@@ -1,3 +1,11 @@
+
+//Code Tutorial followed to aid in page creation: 
+
+//    True Coder, (2021). Responsive Landing Page Using HTML & CSS & JavaScript | Step By Step Web Design Tutorial.
+//    Youtube. Avaiable at: https://www.youtube.com/watch?v=RaITAxEdTDY
+//    (Accessed: 22 April 2024)
+
+
 var toggle_btn;
 var big_wrapper;
 var hamburger_menu;
