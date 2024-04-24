@@ -9,8 +9,7 @@ Cybersecurity Space"
 
 Project Description:
 
-This project analyses the Artificial Intelligence state of art and the impact on cyberse-
-curity. It examines developments within the field and the associated security impacts.
+This project analyses the Artificial Intelligence state of art and the impact on cybersecurity. It examines developments within the field and the associated security impacts.
 Furthermore, the project covers AI Ethics, scoping the characteristics of an Ethical
 AI alongside risks and concerns.
 
